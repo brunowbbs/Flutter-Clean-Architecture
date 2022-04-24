@@ -17,7 +17,7 @@ main() {
     SaveFavoriteCarUsecase useCase =
         SaveFavoriteCarUsecaseImp(SaveFavoriteCarRepositoryImp());
 
-    var car = CarEntity(placa: "AVC123", qtdPortas: 2, valor: 1);
+    var car = CarEntity(placa: "ARC123", qtdPortas: 2, valor: 1);
 
     var result = await useCase(car);
 
