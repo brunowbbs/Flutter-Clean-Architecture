@@ -13,4 +13,10 @@ class CarEntity {
   double get valorReal {
     return valor * qtdPortas;
   }
+
+  setLogica() {
+    if (this.valorReal > 10000.00) {
+      this.valor *= 2;
+    }
+  }
 }
